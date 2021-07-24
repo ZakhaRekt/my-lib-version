@@ -8,7 +8,7 @@ const Discord = require('discord.js');
  * @property {string} [giveawayEnded='@everyone\n\n🎉🎉 **Розыгрыш окончен** 🎉🎉'] Displayed above the giveaway embed when the giveaway is ended.
  * @property {string} [inviteToParticipate='Нажмите на 🎉 что-бы поучаствовать!'] Displayed in the giveaway embed. Incite people to react to the giveaway.
  * @property {string} [timeRemaining='Времени осталось: **{duration}**'] Displayed below inviteToParticipate in the giveaway embed. {duration} will be replaced automatically with the time remaining.
- * @property {string} [winMessage='Поздровляю, {winners}! Ты выиграл **{prize}**!\n{messageURL}'] Sent in the channel when the giveaway is ended.
+ * @property {string} [winMessage='Поздравляю, {winners}! Ты выиграл **{prize}**!\n{messageURL}'] Sent in the channel when the giveaway is ended.
  * @property {string} [embedFooter='Розыгрыши by Developer Montano'] The footer of the giveaway embed.
  * @property {string} [noWinner='Нет победителей, никто не нажал реакцию!'] Sent in the channel if there's no valid winner for the giveaway.
  * @property {string} [winners='- победителей'] Displayed next to the embed footer, used to display the number of winners of the giveaways.
@@ -53,7 +53,7 @@ exports.defaultGiveawayMessages = {
     giveawayEnded: '@everyone\n\n🎉🎉 **Розыгрыш окончен** 🎉🎉',
     inviteToParticipate: 'Нажмите на 🎉 что-бы поучаствовать!',
     timeRemaining: 'Времени осталось: **{duration}**',
-    winMessage: 'Поздровляю, {winners}! Ты выиграл **{prize}**!\n{messageURL}',
+    winMessage: 'Поздравляю, {winners}! Ты выиграл **{prize}**!\n{messageURL}',
     embedFooter: 'Розыгрыши by Developer Montano',
     noWinner: 'Нет победителей, никто не нажал реакцию!',
     winners: 'победителей',
