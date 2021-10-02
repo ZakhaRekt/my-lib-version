@@ -64,7 +64,7 @@ class GiveawaysManager extends EventEmitter {
             .setAuthor(giveaway.prize)
             .setColor(lastChanceEnabled ? giveaway.lastChance.embedColor : giveaway.embedColor)
             .setFooter(`${giveaway.winnerCount} ${giveaway.messages.winners} • ${giveaway.messages.embedFooter}`)
-            .setImage('https://i.imgur.com/cBMjxUS.png')
+            .setImage('https://i.imgur.com/HyEPQ5I.png')
             .setDescription(
                 (lastChanceEnabled ? giveaway.lastChance.content + '\n\n' : '') +
                 giveaway.messages.inviteToParticipate +
@@ -111,7 +111,7 @@ class GiveawaysManager extends EventEmitter {
         embed
             .setAuthor(giveaway.prize)
             .setColor(giveaway.embedColorEnd)
-            .setImage('https://i.imgur.com/cBMjxUS.png')
+            .setImage('https://i.imgur.com/HyEPQ5I.png')
             .setFooter(giveaway.messages.endedAt)
             .setDescription(descriptionString(formattedWinners))
             .setTimestamp(new Date(giveaway.endAt).toISOString());
@@ -128,7 +128,7 @@ class GiveawaysManager extends EventEmitter {
         embed
             .setAuthor(giveaway.prize)
             .setColor(giveaway.embedColorEnd)
-            .setImage('https://i.imgur.com/cBMjxUS.png')
+            .setImage('https://i.imgur.com/HyEPQ5I.png')
             .setFooter(giveaway.messages.endedAt)
             .setDescription(
                 giveaway.messages.noWinner +
